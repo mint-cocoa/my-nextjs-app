@@ -1,0 +1,70 @@
+.body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 1.5em; /* 글씨 크기를 줄였습니다 */
+  }
+  
+  .form-label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #000; /* 검은색 글씨 */
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  .footer-text {
+    margin-top: 20px;
+    color: #777;
+    font-size: 0.9em;
+  }
+  
+  .register-link {
+    color: #0066ff; /* 파란색 링크 */
+    text-decoration: none; /* 밑줄 없앰 */
+  }
+  
+  .register-link:hover {
+    text-decoration: underline; /* 마우스 오버시 밑줄 */
+  }
+  
