@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     form.addEventListener('submit', function(event) {
       event.preventDefault();
       
-      // Mock 응답 데이터
+      // Mock 응답 데이x터
       const mockResponse = { success: true, message: '의사 등록 완료' };
   
       // 여기서 실제 API 요청 대신 Mock 응답을 처리
